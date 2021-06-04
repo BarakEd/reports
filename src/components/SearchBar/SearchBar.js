@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const SearchBar = ({onSearchChange, onClickHandler}) => {
+const SearchBar = ({onSearchChange}) => {
   const classes = useStyles();
 
   return (
